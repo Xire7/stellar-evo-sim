@@ -5,6 +5,11 @@ on:
     branches: [ main ] # or master, depending on your default branch
   pull_request:
     branches: [ main ]
+  
+permissions:
+  contents: write # Required for deploying to GitHub Pages
+  pages: write # Required for deploying to GitHub Pages
+  id-token: write # Required for actions that need to authenticate with the GitHub API
 
 jobs:
   build-and-deploy:
