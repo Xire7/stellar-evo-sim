@@ -1,6 +1,6 @@
 {
   "name": "stellar-evo-sim",
-  "homepage" :"https://Xire7.github.io/stellar-evo-sim/",
+  "homepage": "https://Xire7.github.io/stellar-evo-sim/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
